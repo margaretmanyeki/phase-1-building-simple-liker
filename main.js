@@ -21,6 +21,7 @@ function likeCallback(e) {
     modal.className = "";
     modal.innerText = error;
     setTimeout(() =>  modal.className = "hidden", 3000);
+
   });
 }
 for (const glyph of articleHearts) {
